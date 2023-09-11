@@ -29,8 +29,8 @@ def binary_search(arr, x):
 
 
 # Test array
-# arr = [ 2, 3, 4, 10, 40 ]
-arr = [5,4,12,10,6,40,32]
+arr = [ 2, 3, 4, 10, 40 ]
+
 x = 10
 
 # Function call
@@ -40,4 +40,5 @@ if result != -1:
 	print("Element is present at index", str(result))
 else:
 	print("Element is not present in array")
+
 
